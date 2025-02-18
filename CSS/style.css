@@ -1,0 +1,17 @@
+body{
+    font-family: 'Fixel Text', Arial, Helvetica, sans-serif;
+}
+.main{
+    max-width: 1700px;
+    margin: 0 auto;
+}
+/* 
+.block_2{
+    overflow: hidden;
+}
+
+.cardImageBlock2 img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+} */

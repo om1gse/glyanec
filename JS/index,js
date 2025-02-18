@@ -1,0 +1,5 @@
+function changeDot(index) {
+    document.querySelectorAll('.dot').forEach((dot, i) => {
+        dot.classList.toggle('active', i === index);
+    });
+}

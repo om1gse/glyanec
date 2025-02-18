@@ -1,0 +1,37 @@
+
+.block3{
+    background-color: #3F00FF;
+    display: flex;
+    padding: 80px 58px 40px 58px;
+    gap: 61px;
+}
+
+.textBlock3 h2{
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 71px;
+    color: #FFFFFF;
+}
+
+.textInfoBlock3 h3{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32.5px;
+    color: #FFFFFF;
+}
+
+.textInfoBlock3 p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.textBlockLogo{
+    display:flex;
+    gap: 50px;
+}
+
+.imageTextBlock3{
+    max-height: 66px;
+}

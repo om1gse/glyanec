@@ -1,11 +1,280 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/header.css" />
+    <link rel="stylesheet" href="./CSS/block1.css" />
+    <link rel="stylesheet" href="./CSS/block3.css" />
+    <link rel="stylesheet" href="./CSS/block4.css" />
+    <link rel="stylesheet" href="./fonts/font/stylesheet.css" />
     <title>Glyanec</title>
-</head>
-<body>
-    <h1>Hello world!</h1>
-</body>
+  </head>
+  <body>
+    <header class="header">
+      <div class="blockLogo">
+        <a href="#"><img src="./IMG/header/logo.png" alt="logo" /></a>
+      </div>
+      <nav class="navbar">
+        <ul class="navbarList">
+          <li class="itemNavList"><a href="">Чому ми?</a></li>
+          <li class="itemNavList"><a href="">Партнери</a></li>
+          <li class="itemNavList"><a href="">Благодійність</a></li>
+          <li class="itemNavList"><a href="">Про нас</a></li>
+          <li class="itemNavList"><a href="">Drupal</a></li>
+        </ul>
+      </nav>
+      <div class="blockContact">
+        <div class="imgForSocial">
+          <a href="#">
+            <img src="./IMG/header/facebook.png" alt="facebookLogo"
+          /></a>
+          <a href="#">
+            <img src="./IMG/header/instargram.png" alt="instLogo"
+          /></a>
+          <a href="#"><img src="./IMG/header/viber.png" alt="viberLogo" /></a>
+        </div>
+        <div>
+          <div class="schedule">
+            <p>Пн-Пт з 10 до 18</p>
+          </div>
+          <div class="contactNumber">
+            <p>0 (800) 759-759</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="main">
+      <section class="block_1">
+        <div class="mainBlock1">
+          <div class="block1Content">
+            <div class="block1Text">
+              <p>Вебстудія №1 з розробки сайтів</p>
+              <h1>
+                Приєднуйтесь<br />
+                до нашої IT-команди
+              </h1>
+              <p>
+                Відкрийте нові перспективи кар'єрного зростання, приєднавшись до
+                нашої<br />
+                інноваційної IT-команди, яка відкриває двері до безмежних
+                можливостей
+              </p>
+              <a class="linkBlock1" href="#">Спробуй свої сили</a>
+            </div>
+
+            <div class="slider-dots">
+              <span class="dot active" onclick="changeDot(0)"></span>
+              <span class="dot" onclick="changeDot(1)"></span>
+              <span class="dot" onclick="changeDot(2)"></span>
+              <span class="dot" onclick="changeDot(3)"></span>
+              <span class="dot" onclick="changeDot(4)"></span>
+            </div>
+          </div>
+
+          <div class="block1Image">
+            <img src="./IMG/block_1/infoImage.png" alt="infoImage" />
+          </div>
+        </div>
+        <div class="findMore">
+          <p><a href="">Дізнатися більше</a></p>
+          <a href="#"
+            ><img src="./IMG/block_1/arrowDown.png" alt="arrowDown"
+          /></a>
+        </div>
+      </section>
+
+      <!-- <section class="block_2">
+        <div class="textUpBlock2">
+            <div>
+                <h2>Етапи первірки<br>
+                    тестового завдання!
+                </h2>
+            </div>
+            <div>
+                <p>Ми цінуємо ваш час, тому оперативно перевіряємо<br> тестові роботи вручну, гарантуючи якісну оцінку.</p>
+            </div>
+        </div>
+
+        <div class="cardImageBlock2">
+            <img src="./IMG/block_2/Group 2219.png" alt="">
+        </div>
+    </section> -->
+
+      <section class="block3">
+        <div class="textBlock3">
+          <h2>
+            Найкраща компанія<br />
+            для роботи в IT
+            <img src="./IMG/block_3/miniLogo.png" alt="">
+          </h2>
+          <div class="textInfoBlock3">
+            <h3>
+                Вебстудія Глянець — команда, яка налічує понад 50<br> професіоналів
+            </h3>
+            <p>Наша компанія має власний офіс, хостинг, проводить навчання кадрів,<br> здійснює контроль якості кожного проєкту.</p>
+            <p>За час своєї роботи ми розробили сотні інтернет-магазинів, які працюють у<br> всіх країнах світу, продаючи своїм замовникам тисячі товарів на добу.</p>
+            <p>Глянець — це надійність. Перевірено досвідом!</p>
+          </div>
+          <div class="textBlockLogo">
+            <div>
+                <img class="imageTextBlock3" src="./IMG/block_3/ukraineGromad.png" alt="ukraineGromad">
+            </div>
+            <div>
+                <img class="imageTextBlock3" src="./IMG/block_3/alternative.png" alt="alternative">
+            </div>
+            <div>
+                <img class="imageTextBlock3" src="./IMG/block_3/helpdestar.png" alt="helpdestar">
+            </div>
+          </div>
+        </div>
+        <div class="photoBlock3">
+            <img src="./IMG/block_3/peoplePhoto.png" alt="peoplePhoto">
+        </div>
+      </section>
+
+      <section class="block4">
+        <h2>ЧОМУ МИ?</h2>
+        <div class="block4Card">
+            <div class="leftCardBlock4">
+                <div class="card">
+                    <div>
+                        <img src="./IMG/block_4/profits 1.png" alt="profits">
+                    </div>
+                    <div>
+                        <h3>Постійне зростання надходжень</h3>
+                        <p>У нашій компанії ми працюємо над тим, щоб надходження<br> 
+                            постійно зростали. Наша мета — допомогти вам досягти<br> фінансового успіху.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <img src="./IMG/block_4/event 1.png" alt="profits">
+                    </div>
+                    <div>
+                        <h3>Вільний графік</h3>
+                        <p>Ми розуміємо, що кожна людина має унікальні потреби та<br> 
+                            обставини, тому пропонуємо гнучкий режим роботи, який<br>
+                             враховує <strong>індивідуальні вимоги</strong>та дозволяє пристосуватися<br>
+                             до них.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <img src="./IMG/block_4/free-icon-gaming-chair-5515248.png" alt="profits">
+                    </div>
+                    <div>
+                        <h3>Комфортний офіс</h3>
+                        <p>Кожен співробітник матиме своє <strong>робоче місце і зручні зони<br> 
+                            відпочинку</strong>>, що сприяють розслабленню<br>
+                             та відновленню енергії. Використовуємо Starlink, тому завжди на звʼязку.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <img src="./IMG/block_4/idea 1.png" alt="profits">
+                    </div>
+                    <div>
+                        <h3>Можливість працювати з дому в<br> майбутньому</h3>
+                        <p>Ми цінуємо баланс між роботою та особистим життям, тому<br>
+                             передбачаємо гнучкий формат роботи для комфорту та<br>
+                              ефективності.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <img src="./IMG/block_4/book 1.png" alt="profits">
+                    </div>
+                    <div>
+                        <h3>Швидкий розвиток</h3>
+                        <p>За короткий проміжок часу ти <strong>стаєш повноцінним<br> 
+                            веброзробником</strong> і тобі не важливо що то буде за макет, ти<br>
+                             зможеш реалізувати все!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="rightCardBlock4">
+                <div class="card">
+                    <div>
+                        <img src="./IMG/block_4/settings 1.png" alt="profits">
+                    </div>
+                    <div>
+                        <h3>Навички та підтримка</h3>
+                        <p>Працюючи у нас ти будеш працювати з препроцесорами,<br>
+                             шаблонізаторами, різними бібліотеками, Doker, Git і з усім цим<br>
+                              ми <strong>тобі допоможемо розібратися</strong> і дамо можливість <strong>свої<br>
+                                 знання сповна реалізувати</strong>.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <img src="./IMG/block_4/teamwork 1.png" alt="profits">
+                    </div>
+                    <div>
+                        <h3>Завжди є замовлення на роки вперед</h3>
+                        <p>У нас потік <strong>нових замовлень</strong>, тому щоразу ти зможеш<br> спробувати реалізувати щось нове
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <img src="./IMG/block_4/startup (1) 1.png" alt="profits">
+                    </div>
+                    <div>
+                        <h3>Участь у стартапах</h3>
+                        <p>У нашій компанії, яка налічує багато стартапів, ми надаємо<br>
+                             учасникам розробки можливість <strong>отримати відсоток</strong>від<br>
+                             прибутку. Також ти розберешся в Drupal API та зможеш<br> писати <strong>свої модулі</strong>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <img src="./IMG/block_4/notes 1.png" alt="profits">
+                    </div>
+                    <div>
+                        <h3>MacBook та 22-дюймові монітори</h3>
+                        <p>Ми забезпечуємо всіх виконавців <strong>сучасною технікою від<br>
+                            Apple</strong>. Кожен співробітник отримує свій власний MacBook, що<br>
+                              дозволяє працювати з надійним та потужним обладнанням,<br>
+                               якісно виконувати будь-які поточні завдання.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <img src="./IMG/block_4/gamepad 1.png" alt="profits">
+                    </div>
+                    <div>
+                        <h3>Відпочинок на розваги</h3>
+                        <p>Ми облаштували комфортні зони відпочинку на свіжому<br>
+                             повітрі. Окрім цього, в офісі є <strong> PlayStation та VR-окуляри</strong>, тож<br>
+                              під час перерв або після робочого дня завжди можна<br>
+                               розважитися.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+    </div>
+    <script src="./JS/index,js"></script>
+  </body>
 </html>

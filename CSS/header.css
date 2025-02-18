@@ -1,0 +1,68 @@
+
+.header{
+    max-width: 1584px;
+    max-height: 104px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.blockLogo img{
+    max-width: 204px;
+    max-height: 60px;
+}
+
+.navbarList{
+    display: flex;
+    gap: 48px;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.navbarList a{
+    text-decoration: none;
+    color: #333333;
+}
+
+.itemNavList{
+    border-right: 1px solid rgba(51, 51, 51, 0.1);
+    padding-right: 24px;
+}
+
+.itemNavList:last-child {
+    border-right: none;
+}
+
+.blockContact{
+    align-items: center;
+    display: flex;
+    gap: 40px;
+}
+
+.imgForSocial{
+    display: flex;
+    gap: 12px;
+}
+
+.schedule p, .contactNumber p {
+    margin: 0;
+    line-height: normal; 
+}
+
+.schedule{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333333;
+}
+
+.contactNumber{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 33px;   
+}
